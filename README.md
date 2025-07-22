@@ -1,6 +1,6 @@
 # XML to GCP Converter
 
-A simple tool to convert Agisoft Metashape marker export XML files to GCP (Ground Control Point) text format for photogrammetry workflows.
+A simple tool to convert Agisoft Metashape marker export XML files to GCP (Ground Control Point) text format for OpenDroneMap.
 
 ## Features
 
