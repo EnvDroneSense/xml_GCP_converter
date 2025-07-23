@@ -100,8 +100,8 @@ def convert_xml_to_gcp(xml_file, output_file=None, epsg_code=None):
                         y_pixel = float(location.get('y', 0))
                         image_name = cameras[camera_id]
                         
-                        f.write(f"{marker['x']:.2f}\t{marker['y']:.2f}\t{marker['z']:.9f}\t"
-                               f"{x_pixel:.2f}\t{y_pixel:.2f}\t{image_name}\n")
+                        f.write(f"{marker['x']:.9f}\t{marker['y']:.9f}\t{marker['z']:.9f}\t"
+                               f"{x_pixel:.6f}\t{y_pixel:.6f}\t{image_name}\n")
     
     print(f"Conversion complete: {output_file}")
     return output_file
